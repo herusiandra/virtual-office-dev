@@ -30,3 +30,6 @@ env/
 Thumbs.db
 .idea/
 .vscode/
+
+# Visual Office (Cloned 3D submodule / UI)
+visual-office/
