@@ -1,0 +1,32 @@
+# Environment & Secrets
+.env
+*.env
+.env.*
+!*.env.example
+
+# Runtime & Process files
+*.log
+*.pid
+STOP
+ACTIVE_PROJECT
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
