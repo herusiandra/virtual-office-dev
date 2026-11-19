@@ -21,7 +21,7 @@ for d in 00-survey 01-analisis 02-ui-plan 03-ui-design 04-code-plan 05-acceptanc
   mkdir -p "$P/workspace/$d"; touch "$P/workspace/$d/.gitkeep"
 done
 touch "$P/workspace/01-analisis/server-actions.log"
-for a in heru rajif naufal priyo denis; do
+for a in heru rajif dhoni naufal priyo denis; do
   mkdir -p "$P/inbox/$a/_selesai"; touch "$P/inbox/$a/.gitkeep"
 done
 cat > "$P/.env.example" <<'ENV'

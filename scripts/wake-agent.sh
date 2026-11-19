@@ -17,12 +17,13 @@ TASK_FILE="${2:-}"
 PROJECT_PATH="${3:-}"
 
 if [[ -z "$TARGET_AGENT" || -z "$TASK_FILE" ]]; then
-  echo "Usage: $0 <heru|naufal|priyo|rajif|denis> <task_file> [project_path]"
+  echo "Usage: $0 <heru|naufal|priyo|rajif|dhoni|denis> <task_file> [project_path]"
   echo "Alias:"
   echo "  heru   | main -> agent-main"
   echo "  naufal | ba   -> agent-sub-ba"
   echo "  priyo  | uiux -> agent-sub-uiux"
   echo "  rajif  | dev  -> agent-sub-dev"
+  echo "  dhoni  | dev2 -> agent-sub-dev-2"
   echo "  denis  | qa   -> agent-sub-qa"
   exit 1
 fi
@@ -48,6 +49,11 @@ case "$TARGET_AGENT" in
     AGENT_KEY="rajif"
     AGENT_DIR="$OFFICE_DIR/agent-sub-dev"
     FOLDER_NAME="agent-sub-dev"
+    ;;
+  dhoni|dev2)
+    AGENT_KEY="dhoni"
+    AGENT_DIR="$OFFICE_DIR/agent-sub-dev-2"
+    FOLDER_NAME="agent-sub-dev-2"
     ;;
   denis|qa)
     AGENT_KEY="denis"

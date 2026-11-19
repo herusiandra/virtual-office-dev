@@ -4,8 +4,8 @@ Setiap dokumen antar agent diawali header:
 
 ```
 ---
-dari: <heru|rajif|naufal|priyo|denis>
-ke: <heru|rajif|naufal|priyo|denis|pengguna>
+dari: <heru|rajif|dhoni|naufal|priyo|denis>
+ke: <heru|rajif|dhoni|naufal|priyo|denis|pengguna>
 proyek: <path-folder-proyek>
 modul: <nama-modul>
 fase: <sesuai playbook>
@@ -30,4 +30,4 @@ Setelah tugas selesai ditangani:
 2. Kirim serah-terima balasan ke inbox penerima berikutnya atau Heru.
 3. Jalankan `/compact` dan `/exit` untuk melepaskan alokasi memori RAM server.
 
-Nama folder inbox mengikuti persona: heru, rajif, naufal (BA), priyo, denis.
+Nama folder inbox mengikuti persona: heru, rajif, dhoni, naufal (BA), priyo, denis.
