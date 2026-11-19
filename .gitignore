@@ -9,6 +9,9 @@
 *.pid
 STOP
 ACTIVE_PROJECT
+project/
+projects/
+
 
 # Database
 *.db
